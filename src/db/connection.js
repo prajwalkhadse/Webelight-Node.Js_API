@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect("mongodb+srv://prajwalkhadse75:XUHHZ7uSjhVuf5Th@cluster0.zt5w1ry.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://prajwalkhadse75:jKLeVye419GhERjY@cluster0.ogjdlfz.mongodb.net/?retryWrites=true&w=majority")
     .then((response) => {
         console.log("Connected to Mango-DB")
     }).catch((error) => {
